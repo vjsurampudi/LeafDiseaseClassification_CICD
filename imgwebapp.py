@@ -11,6 +11,7 @@ from io import BytesIO
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Bean Image Classifier")
 st.text("Provide URL of bean Image for image classification")
+print("hello world")
 
 @st.cache(allow_output_mutation=True)
 def load_model():
